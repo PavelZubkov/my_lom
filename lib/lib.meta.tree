@@ -1,0 +1,7 @@
+include \/my/lom/button
+include \/my/lom/dom
+include \/my/lom/input
+include \/my/lom/lib
+include \/my/lom/storage
+include \/my/lom/theme
+include \/my/lom/view

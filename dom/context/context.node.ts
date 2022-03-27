@@ -1,1 +1,1 @@
-$my_lom_dom_context = new $node.jsdom.JSDOM( '' , { url : 'https://localhost/' } ).window
+$my_lom_dom_context = new $node.jsdom.JSDOM( '' , { url : 'https://localhost/' } ).window as any
