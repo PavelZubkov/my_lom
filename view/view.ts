@@ -26,7 +26,7 @@ class $my_lom_view {
 
 	field(): { [key: string]: any } {
 		return {}
-	}
+	} // 123
 	
 	sub(): Array<$my_lom_view | Node | string | number | boolean> {
         return []
