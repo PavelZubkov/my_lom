@@ -21,7 +21,7 @@ jobs:
       with:
         package: my/lom/lib
     
-    - uses: JS-DevTools/npm-publish@v1
+    - uses: PavelZubkov/npm-publish@v1
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
         token: ${{ secrets.NPM_AUTH_TOKEN }}
