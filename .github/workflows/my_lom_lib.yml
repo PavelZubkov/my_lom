@@ -1,4 +1,4 @@
-name: my_lom_lib
+name: my_lom_lib_0
 
 on:
   workflow_dispatch:
