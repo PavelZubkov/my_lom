@@ -19,7 +19,7 @@ jobs:
     - name: Build apps
       uses: hyoo-ru/mam_build@master2
       with:
-        package: my_lom_lib
+        package: my/lom/lib
     
     - uses: JS-DevTools/npm-publish@v1
       if: ${{ github.ref == 'refs/heads/main' }}
