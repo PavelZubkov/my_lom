@@ -21,6 +21,12 @@ jobs:
       with:
         package: my/lom/lib
     
+    - name: Deploy on GitHub Pages
+      uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+      with:
+        repo-token: ${{ secrets.GH_PAT }}
+        site-directory: 'my/lom/lib/-'
+
     - uses: PavelZubkov/npm-publish@v1
       with:
         token: ${{ secrets.NPM_AUTH_TOKEN }}
