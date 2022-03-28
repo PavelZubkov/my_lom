@@ -19,7 +19,8 @@ jobs:
     - name: Build apps
       uses: hyoo-ru/mam_build@master2
       with:
-        package: my/lom/lib
+        package: my/lom
+		modules: 'my/lom/lib'
     
     - name: Deploy on GitHub Pages
       uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
