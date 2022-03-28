@@ -1,0 +1,14 @@
+{
+  "name": "my_lom_lib",
+  "version": "0.0.1",
+  "main": "node.js",
+  "module": "node.esm.js",
+  "browser": "web.js",
+  "types": "web.d.ts",
+  "keywords": [
+    "$my_lom_lib",
+    "$my_lom",
+    "$my"
+  ],
+  "dependencies": {}
+}
