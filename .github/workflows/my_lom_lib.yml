@@ -22,7 +22,6 @@ jobs:
         package: my/lom/lib
     
     - uses: PavelZubkov/npm-publish@v1
-      if: ${{ github.ref == 'refs/heads/main' }}
       with:
         token: ${{ secrets.NPM_AUTH_TOKEN }}
         package: ./my/lom/lib/-/package.json
